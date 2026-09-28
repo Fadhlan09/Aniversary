@@ -17,7 +17,7 @@
 <body>
 
     <!-- =========================
-         HALAMAN PERTAMA
+         HALAMAN PERTAMA / HOME
     ========================== -->
 
     <main class="hero">
@@ -29,11 +29,15 @@
             </div>
 
             <div class="nav-icons">
+
                 <span id="musicButton">♫</span>
-                <span>☰</span>
+
+                <span id="menuButton">☰</span>
+
             </div>
 
             <!-- MUSIK -->
+
             <audio id="bgMusic" loop>
                 <source src="andriih-love-love-music-601632.mp3" type="audio/mpeg">
             </audio>
@@ -41,7 +45,52 @@
         </header>
 
 
-        <!-- ISI HALAMAN PERTAMA -->
+        <!-- =========================
+             MENU HAMBURGER
+        ========================== -->
+
+        <div id="menuPanel" class="menu-panel">
+
+            <div class="menu-header">
+
+                <span>OUR STORY</span>
+
+                <span id="closeMenu">
+                    ×
+                </span>
+
+            </div>
+
+            <nav class="menu-list">
+
+                <a href="#">
+                    🏠 Home
+                </a>
+
+                <a href="#story">
+                    ❤️ Our Story
+                </a>
+
+                <a href="#moments">
+                    📸 Our Moments
+                </a>
+
+                <a href="#pesan">
+                    💌 Pesan
+                </a>
+
+                <a href="#" id="menuMusic">
+                    🎵 Music
+                </a>
+
+            </nav>
+
+        </div>
+
+
+        <!-- =========================
+             ISI HALAMAN PERTAMA
+        ========================== -->
 
         <section class="hero-content">
 
@@ -69,14 +118,37 @@
 
         </section>
 
-
-        <!-- PANAH SCROLL -->
-
-        <div class="scroll">
-            ↓
-        </div>
-
     </main>
+
+
+    <!-- =========================
+         OUR STORY
+    ========================== -->
+
+    <section id="story" class="content-section">
+
+        <p class="section-label">
+            OUR STORY
+        </p>
+
+        <h2>
+            Cerita kita dimulai
+            <br>
+            dari sini.
+        </h2>
+
+        <p class="content-text">
+
+            Semua berawal dari sebuah perkenalan sederhana
+            pada 30 September 2021.
+
+            Dari yang awalnya hanya saling mengenal,
+            perlahan menjadi sebuah cerita yang terus berjalan
+            sampai hari ini.
+
+        </p>
+
+    </section>
 
 
     <!-- =========================
@@ -100,9 +172,11 @@
             </h2>
 
             <p class="intro-text">
+
                 Dari sebuah perkenalan sederhana,
                 sampai menjadi cerita yang masih berjalan
                 sampai sekarang.
+
             </p>
 
         </div>
@@ -115,6 +189,7 @@
         <div class="timeline">
 
             <!-- 01 -->
+
             <div class="timeline-item">
 
                 <div class="timeline-number">
@@ -132,13 +207,19 @@
                     </h3>
 
                     <div class="photo-placeholder">
-                        <img src="first.jpeg" alt="Pertama kali kenal">
+
+                        <img
+                            src="first.jpeg"
+                            alt="Pertama kali kenal">
+
                     </div>
 
                     <p>
+
                         Di tanggal ini kita pertama kali kenal.
                         Belum tahu bakal sejauh ini,
                         tapi dari sini cerita kita dimulai.
+
                     </p>
 
                 </div>
@@ -147,6 +228,7 @@
 
 
             <!-- 02 -->
+
             <div class="timeline-item has-photo">
 
                 <div class="timeline-number">
@@ -164,12 +246,18 @@
                     </h3>
 
                     <div class="photo-placeholder">
-                        <img src="foto1.PNG" alt="Pertemuan pertama">
+
+                        <img
+                            src="foto1.PNG"
+                            alt="Pertemuan pertama">
+
                     </div>
 
                     <p>
+
                         Setelah sebelumnya cuma saling kenal,
                         akhirnya kita bisa ketemu langsung.
+
                     </p>
 
                 </div>
@@ -178,6 +266,7 @@
 
 
             <!-- 03 -->
+
             <div class="timeline-item has-photo">
 
                 <div class="timeline-number">
@@ -195,12 +284,18 @@
                     </h3>
 
                     <div class="photo-placeholder">
-                        <img src="fav.jpeg" alt="Pertemuan ketiga">
+
+                        <img
+                            src="fav.jpeg"
+                            alt="Momen favorit">
+
                     </div>
 
                     <p>
-                        Salah satu momen yang sampai sekarang
-                        masih gue inget.
+
+                        Salah satu momen yang kita suka
+                        sampai saat ini.
+
                     </p>
 
                 </div>
@@ -209,6 +304,7 @@
 
 
             <!-- 04 -->
+
             <div class="timeline-item has-photo">
 
                 <div class="timeline-number">
@@ -226,12 +322,19 @@
                     </h3>
 
                     <div class="photo-placeholder">
-                        <img src="today.jpeg" alt="Pertemuan ketiga">
+
+                        <img
+                            src="today.jpeg"
+                            alt="Momen sekarang">
+
                     </div>
 
                     <p>
+
                         Dan ternyata cerita yang dimulai
-                        pada 30 September 2021 masih terus berjalan.
+                        pada 30 September 2021
+                        masih terus berjalan.
+
                     </p>
 
                 </div>
@@ -241,9 +344,7 @@
         </div>
 
 
-        <!-- =========================
-             PENUTUP JOURNEY
-        ========================== -->
+        <!-- PENUTUP JOURNEY -->
 
         <div class="journey-end">
 
@@ -252,19 +353,125 @@
             </p>
 
             <h2>
+
                 Masih banyak cerita
                 <br>
                 yang belum kita tulis.
+
             </h2>
 
             <p class="journey-date">
-                30 SEPTEMBER 2021 
+                30 SEPTEMBER 2021
             </p>
 
             <div class="journey-line"></div>
 
             <p class="journey-names">
-                Fadhlan <span>&</span> Meytha
+
+                Fadhlan
+                <span>&</span>
+                Meytha
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         OUR MOMENTS
+    ========================== -->
+
+    <section id="moments" class="content-section">
+
+        <p class="section-label">
+            OUR MOMENTS
+        </p>
+
+        <h2>
+            Momen yang kita simpan.
+        </h2>
+
+        <p class="content-text">
+
+            Beberapa momen sederhana
+            yang menjadi bagian dari cerita kita.
+
+        </p>
+
+
+        <!-- GALERI -->
+
+        <div class="moment-gallery">
+
+            <img
+                src="first.jpeg"
+                alt="Our Moment 1">
+
+            <img
+                src="foto1.PNG"
+                alt="Our Moment 2">
+
+            <img
+                src="fav.jpeg"
+                alt="Our Moment 3">
+
+            <img
+                src="today.jpeg"
+                alt="Our Moment 4">
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PESAN
+    ========================== -->
+
+    <section id="pesan" class="content-section pesan-section">
+
+        <p class="section-label">
+            A LITTLE MESSAGE
+        </p>
+
+        <h2>
+            Untuk Meytha.
+        </h2>
+
+        <div class="message-box">
+
+            <p>
+
+                Hai Meytha,
+
+                <br><br>
+
+                Gak kerasa ya,
+                ternyata cerita yang dimulai
+                dari sebuah perkenalan sederhana
+                sudah sampai sejauh ini.
+
+                <br><br>
+
+                Terima kasih sudah menjadi bagian
+                dari perjalanan ini.
+
+                Banyak hal yang sudah kita lewati,
+                banyak momen yang sudah kita simpan,
+                dan masih banyak cerita yang ingin
+                kita jalani bersama.
+
+                <br><br>
+
+                Semoga kedepannya masih banyak
+                cerita yang bisa kita tulis bersama.
+
+            </p>
+
+            <p class="message-sign">
+                Fadhlan ♡
             </p>
 
         </div>
